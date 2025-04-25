@@ -39,3 +39,33 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Sentry Config File
+.env.sentry-build-plugin
+
+
+ Cloudflare Wrangler
+.wrangler
+
+# Supabase local emulator
+.supabase
+
+# pnpm store (if you enable “shared-workspace” mode)
+.pnpm-store
+
+# Turborepo / Turbopack cache
+.turbo
+
+# IDE configs
+.vscode/*
+.idea/*
+
+# Mac metadata (already ignoring .DS_Store but cover network files)
+.AppleDouble
+.LSOverride
+
+# Logs in any folder
+*.log
+
+# OS trash
+.Trash-*
